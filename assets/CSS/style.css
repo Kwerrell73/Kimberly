@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1;
  padding: 25px;
- background: linear-gradient(100DEG, rgba(100, 15, 97, 0.4),  rgba(116, 5, 110, 0.4),  rgba(116, 5, 110, 0.4) );
+ background: -webkit-linear-gradient(left, rgba(4,191,212,0.9) 0%, rgba(117,8,161,0.9) 100%);
 }
 
 header {
@@ -107,11 +107,13 @@ font-weight: bold;
 text-align: center;
 color: rgb(88, 9, 104);
 text-shadow: 2px 2px 0px #eee;
+background-color: #92aad4;
+padding: 10px 20px 10px 20px;
 }
 
 .videoheader {
   text-align: center;
-  color: rgb(88, 9, 104);
+  color: rgb(48, 6, 56);
   text-shadow: 2px 2px 0px #eee;
   }
 
