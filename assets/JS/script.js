@@ -31,9 +31,9 @@ natureBtn.addEventListener('click', function (event) {
 
 });
 
-sportsBtn.addEventListener('click', function (event) {
+unicornBtn.addEventListener('click', function (event) {
   fetch(
-    'https://api.giphy.com/v1/gifs/random?api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&rating=g&tag=sports'
+    'https://api.giphy.com/v1/gifs/random?api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&tag=unicorns'
   )
     // Convert the response to JSON
     .then(function (response) {
@@ -54,9 +54,9 @@ sportsBtn.addEventListener('click', function (event) {
 
 });
 
-animalBtn.addEventListener('click', function (event) {
+rainbowBtn.addEventListener('click', function (event) {
   fetch(
-    'https://api.giphy.com/v1/gifs/random?api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&rating=g&tag=animals'
+    'https://api.giphy.com/v1/gifs/random?api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&rating=g&tag=rainbows'
   )
     // Convert the response to JSON
     .then(function (response) {
